@@ -55,6 +55,10 @@ def validate_data(values):
 
     return True
     
+"""
+these two functions have been refactored into update_worksheet()
+
+
 
 def update_sales_worksheet(data):
     """
@@ -66,7 +70,7 @@ def update_sales_worksheet(data):
     print('Sales worksheet updated successfully.\n')
 
 
-def update_surplus_worksheet(new_surplus_data):
+def update_surplus_worksheet(data):
     """
     update surplus worksheet
     """
@@ -74,7 +78,7 @@ def update_surplus_worksheet(new_surplus_data):
     surplus_worksheet = SHEET.worksheet('surplus')
     surplus_worksheet.append_row(new_surplus_data)
     print('Surplus worksheet updated successfully.\n')
-
+"""
 
 
 
